@@ -1,0 +1,510 @@
+/* Global CSS Start */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 14px;
+    line-height: 24px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3 {
+    font-family: 'Alfa Slab One', cursive;
+}
+h4,h5,h6 {
+    font-family: 'Bebas Neue', cursive;
+}
+a, a:hover {
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+
+/* Global CSS Start */
+/* Global CSS End */
+
+
+/* Header Section CSS Start */
+    .header-section {
+        width: 100%;
+        background: url('../Images/Banner_img.jpg') center top no-repeat;
+        background-size: cover;
+      
+      
+    }
+    .header-top {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .header-top .contact {
+        width: 100%;
+        text-align: right;
+    }
+    .header-top .contact a {
+        font-size: 16px;
+        line-height: 26px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #3d2514;
+    }
+    .header-top .contact a img {
+        width: 40px;
+        margin-right: 5px;
+        color: black;
+    }
+    .header-top .contact a:hover {
+        color: #654c32;
+    }
+    
+
+    .main_menu {
+        width: 100%;
+    }
+    /* Stick Up CSS Start */
+        .isStuck{
+            left:0px;
+            width:100%;
+            background: #FFC546;
+        }
+        .navbar-wrapper {
+            width: 100%;
+            margin-top: 0px;
+            position: relative;
+            z-index: 15;
+        }
+    /* Stick Up CSS End */
+    .main_menu .bg-light {
+        background-color: unset !important;
+    }
+    .main_menu .navbar-brand img {
+        width: 175px;
+    }
+    .navbar-expand-lg .navbar-nav .active> .nav-link {
+        color: #000000; 
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 20px;
+        padding-right: 0px;
+        padding-left: .5rem;
+        line-height: 30px;
+        font-weight: 700;
+        color: #3d2514;
+        margin-left: 30px;
+        letter-spacing: 3px;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: #000000 !important; 
+    }
+
+    .banner {
+        width: 100%;
+        padding: 130px 0px 243px;
+    }
+    .banner .banner_inner {
+        width: 100%;
+    }
+    .banner .banner_inner h6 {
+        width: fit-content;
+        color: #3d2514;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        border: 2px dashed #3d2514;
+        padding: 7px 10px 4px;
+        text-transform: uppercase;
+    }
+    .banner .banner_inner h1 {
+        color: #3d2514;
+        font-size: 95px;
+        line-height: 105px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-shadow: 4px 4px 0px #fee8bc;
+    }
+    .banner .banner_inner h3{
+        color: #3d2514;
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 0px #fee8bc;
+        margin-top: -15px;
+    }
+/* Header Section CSS End */
+
+
+/* Feature Section Start */
+    .feature {
+        width: 100%;
+        padding: 60px;
+    }
+    .feature .feature_left {
+        width: 100%;
+    }
+    .feature .feature_left img {}
+    .feature .feature_right {
+        width: 100%;
+    }
+    .feature .feature_right .figure-img {
+        margin-bottom: 32px;
+        line-height: 1;
+    }
+/* Feature Section End */
+
+
+/* Testy Section Start */
+    .testy {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    .testy .testy_title {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .testy .testy_title h4 {
+        color: #3d2514;
+        font-size: 25px;
+        line-height: 35px;
+        font-weight: 700;
+        text-transform: uppercase;
+        background: #ffc045;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 8px 20px 2px;
+        margin-bottom: 25px;
+    }
+    .testy .testy_title h2 {
+        color: #3d2514;
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .testy .testy_title p {
+        color: #3d2514;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    .testy .testy_item {
+        width: 100%;
+    }
+    .testy .testy_item .card {
+        text-align: center;
+        border: none;
+    }
+    .testy .testy_item .card-body {
+        padding: 5px 0px 0px;
+    }
+    .testy .testy_item .card-title {
+        color: #3d2514;
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+    }
+    .testy .testy_item .card-text {
+        color: #3d2514;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+    .testy .testy_item .btn {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        font-family: 'Alfa Slab One', cursive;
+        text-transform: uppercase;
+        padding: 8px 25px 5px;
+        background: #bf2222;
+        border: 1px solid #bf2222;
+        letter-spacing: 1px;
+        transition: .7s ease-in-out;
+        -webkit-transition: .7s ease-in-out;
+        -moz-transition: .7s ease-in-out;
+        -ms-transition: .7s ease-in-out;
+        -o-transition: .7s ease-in-out;
+}
+    .testy .testy_item .btn:hover {
+        background: transparent;
+        color: #bf2222;
+        border: 1px solid #bf2222;
+     
+    }
+/* Testy Section End */
+
+
+/* Discover Section Start */
+    .discover {
+        width: 100%;
+        background: #f6f6f6;
+    }
+    .discover .discover-slider {
+        width: 100%;
+        padding: 25px;
+        background: #fff;
+        box-shadow: 17px 17px 30px #dddddd;
+    }
+    .discover .discover-slider .slider-text {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .discover .discover-slider .slider-text h4 {
+        color: #3d3d3d;
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: -6px;
+    }
+    .discover .discover-slider .slider-text h2 {
+        color: #3d2514;
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .discover .discover-slider .slider-text p {
+        color: #3d3d3d;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
+    }
+    .discover .discover-slider .slider-img {
+        width: 100%;
+    }
+    .discover .discover-slider .carousel-indicators {
+        position: absolute;
+        right: unset;
+        bottom: 0;
+        left: 38px;
+        z-index: 15;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        list-style: none;
+    }
+    .discover .discover-slider .carousel-indicators .active {
+        background: #ffc045;
+        border: 1px solid #ffc045;
+    }
+    .discover .discover-slider .carousel-indicators li {
+        position: relative;
+        background: #dcdcdc;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        right: 0;
+        left: 0;
+        bottom: -55px;
+        left: 0;
+        z-index: 10;
+        padding-top: 0px;
+        color: #fff;
+        text-align: center;
+        padding-bottom: 0px;
+        border: 1px solid #dcdcdc;
+        opacity: 100%;
+        margin-right: 10px;
+        top: -20px;
+    }
+    .discover .discover-slider .carousel-indicators li:hover {
+        background: #ffc045;
+        border: 1px solid #ffc045;
+    }
+   
+/* Discover Section End */
+
+
+/* Reservation Section Start */
+    .reservation {
+        width: 100%;
+        background: url('../Images/Reservation_img.png') center top no-repeat;
+        background-size: cover;
+        padding-bottom: 145px;
+    }
+    .reservation .reservation-title {
+        width: 100%;
+        padding: 80px 0px 65px;
+    }
+    .reservation .reservation-title h4 {
+        color: #3d2514;
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        letter-spacing: 2px;
+    }
+    .reservation .reservation-title h2 {
+        color: #3d2514;
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .reservation .res_from {
+        width: 100%;
+    }
+    .reservation .res_from .form_left {
+        width: 100%;
+    }
+    .reservation .res_from .form_right {
+        width: 100%;
+    }
+    .reservation .res_from  .form-control {
+        margin-bottom: 25px;
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #3d3d3d;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #bebebe;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .reservation .res_from .form-control:focus {
+        color: #3d2514 !important;
+        background-color: #fff;
+        border-color: #bebebe;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem #3d2514;
+    }
+    .reservation .res_from .form_submit {
+        background: #bf2222;
+        border: 1px solid #bf2222;
+        color: #fff;
+        letter-spacing: 2px;
+        transition: .7s ease-in-out;
+        -webkit-transition: .7s ease-in-out;
+        -moz-transition: .7s ease-in-out;
+        -ms-transition: .7s ease-in-out;
+        -o-transition: .7s ease-in-out;
+    }
+    .reservation .res_from .form_submit:hover, .reservation .res_from .form_submit:focus {
+        background: transparent;
+        color: #bf2222;
+       
+    }
+/* Reservation Section End */
+
+
+/* Footer Section Start */
+    .footer-section {
+        width: 100%;
+        padding-bottom: 60px;
+        background: #f6f6f6;
+    }
+    .footer-section .footer-inner {
+        width: 100%;
+        background: url('../Images/footer_img.jpg') center top no-repeat;
+        background-size: cover;
+    }
+    .footer-section .footer-inner .fo-left {
+        width: 100%;
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+    .footer-section .footer-inner .fo-left img {
+        width: 350px;
+    }
+    .footer-section .footer-inner .fo-left p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+    .footer-section .footer-inner .fo-right {
+        width: 100%;
+        padding-left: 180px;
+        padding-top: 190px;
+    }
+    .footer-section .footer-inner .fo-right a {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .footer-section .footer-inner .fo-right a:hover {
+        opacity: 70%;
+    }
+    .footer-section .footer-inner .fo-right .fo_item-1 {
+        margin-bottom: 5px;
+    }
+    .footer-section .footer-inner .fo-right .fo_item-1 a span {
+        margin-right: 20px;
+    }
+    .footer-section .footer-inner .fo-right .fo_item-2 a span {
+        margin-right: 15px;
+    }
+    .footer-section .footer-inner .fo-down {
+        width: 100%;
+    }
+    .footer-inner .fo-down {
+        width: 100%;
+        padding-top: 110px;
+    }
+    .footer-inner .fo-down .fo-down-left {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .footer-inner .fo-down .fo-down-left p {
+        color: #fff;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .footer-inner .fo-down .fo-down-right {
+        width: 100%;
+    text-align: right;
+    }
+    .footer-inner .fo-down .fo-down-right a {
+        margin-right: 15px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+/* Footer Section End */
+
+
+
+
+/* Stick Up CSS Start */
+/* .isStuck{
+    left:0px;
+    width:100%;
+  
+}
+
+.navbar-wrapper {
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+
+} */
+/* Stick Up CSS End */

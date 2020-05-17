@@ -1,0 +1,994 @@
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+  
+@media (min-width: 320px) and (max-width: 480px) {
+  /* header Section Start */
+    .header-section {
+      width: 100%;
+      background: url('../Images/menu_banner.png') center top no-repeat;
+      background-size: cover;
+    }
+    .header-top {
+      width: 100%;
+      padding-top: 15px;
+    }
+    .header-top .contact {
+      width: 100%;
+      text-align: center;
+    }
+    .header-top .contact a {
+      font-size: 14px;
+      line-height: 24px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #3d2514;
+    }
+    .header-top .contact a img {
+      width: 30px;
+      margin-right: 5px;
+      color: black;
+    }
+    .main_menu .navbar-brand img {
+      width: 150px;
+    }
+    .banner {
+      padding: 30px 0px 100px;
+      background: url('../Images/baneer_pic.png') center top no-repeat;
+      background-size: cover;
+    }
+    .banner .banner_inner h6 {
+      width: fit-content;
+      color: #3d2514;
+      font-size: 10px;
+      line-height: 20px;
+      font-weight: 400;
+      border: 2px dashed #3d2514;
+      padding: 4px 6px 2px;
+      text-transform: uppercase;
+    }
+    .banner .banner_inner h1 {
+      color: #3d2514;
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: 4px 4px 0px #fee8bc;
+    }
+    .banner .banner_inner h3 {
+      color: #3d2514;
+      font-size: 25px;
+      line-height: 35px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: 3px 3px 0px #fee8bc;
+      margin-top: -15px;
+    }
+  /* header Section End */
+
+
+  /* Feature Section Start */
+    .feature {
+      margin: 40px 0px 0px;
+      padding: 0px;
+    }
+    .feature .feature_right {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .feature .feature_right .figure-img {
+      margin-bottom: 20px;
+      line-height: 1;
+    }
+  /* Feature Section End */
+
+
+  /* Testy Section Start */
+    .testy {
+      padding: 45px 0px 0px;
+    }
+    .testy .testy_title h4 {
+      color: #3d2514;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: #ffc045;
+      width: fit-content;
+      margin: 0 auto;
+      padding: 6px 15px 4px;
+      margin-bottom: 15px;
+    }
+    .testy .testy_title h2 {
+      color: #3d2514;
+      font-size: 27px;
+      line-height: 37px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .testy .testy_title p {
+      color: #3d2514;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+    .testy .testy_title p br {
+      content: 'A' !important;
+    }
+    .testy .testy_item {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .testy .testy_item .card {
+      width: 100% !important;
+      text-align: center;
+      border: none;
+    }
+    .testy .testy_item .card-body {
+      padding: 10px 0px 0px;
+    }
+  /* Testy Section End */
+
+
+  /* Discover Section Start */
+    .discover .discover-slider .slider-text h4 {
+      color: #3d3d3d;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+    }
+    .discover .discover-slider .slider-text h2 {
+      color: #3d2514;
+      font-size: 24px;
+      line-height: 34px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .discover .discover-slider .slider-text p {
+      color: #3d3d3d;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+    .discover .discover-slider {
+      width: 100%;
+      padding: 0px 25px 60px;
+      background: #fff;
+      box-shadow: 17px 17px 30px #dddddd;
+    }
+    .discover .discover-slider .carousel-indicators {
+      position: absolute;
+      right: unset;
+      bottom: 0;
+      right: 0px;
+      left: 0px;
+      bottom: -15px;
+    }
+  /* Discover Section End */
+
+
+  /* Reservation Section Start */
+    .reservation {
+      padding: 45px 0px 40px;
+    }
+    .reservation .reservation-title h4 {
+      color: #3d2514;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+      letter-spacing: 2px;
+    }
+    .reservation .reservation-title h2 {
+      color: #3d2514;
+      font-size: 24px;
+      line-height: 34px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .reservation .reservation-title {
+      width: 100%;
+      padding: 0px 0px 20px;
+    }
+    .reservation .res_from .form-control {
+      margin-bottom: 15px;
+      display: block;
+      width: 100%;
+      height: calc(1.5em + .75rem + 2px);
+      padding: .375rem .75rem;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #3d3d3d;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #bebebe;
+      border-radius: .25rem;
+      transition: ease-in-out;
+      -webkit-transition: ease-in-out;
+      -moz-transition: ease-in-out;
+      -ms-transition: ease-in-out;
+      -o-transition: ease-in-out;
+    }
+    .reservation .res_from .form_submit {
+      background: #bf2222;
+      border: 1px solid #bf2222;
+      color: #fff;
+    }
+    .reservation .res_from .form_submit:hover, .reservation .res_from .form_submit:focus {
+      background: transparent;
+      color: #bf2222;
+    
+    }
+  /* Reservation Section End */
+
+
+  /* Footer Section Start */
+    .footer-section {
+      width: 100%;
+      padding-bottom: 15px;
+      background: #f6f6f6;
+    }
+    .footer-section .footer-inner .fo-left {
+      width: 100%;
+      padding-top: 45px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .footer-section .footer-inner .fo-left img {
+      width: 275px;
+    }
+    .footer-section .footer-inner .fo-left p {
+      color: #fff;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      margin-top: 30px;
+    }
+    .footer-section .footer-inner .fo-right {
+      width: 100%;
+      padding-left: 30px;
+      padding-top: 15px;
+    }
+    .footer-section .footer-inner .fo-right a {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 500;
+      color: #fff;
+      letter-spacing: 2px;
+    }
+    .footer-inner .fo-down {
+      width: 100%;
+      padding-top: 45px;
+    }
+    .footer-inner .fo-down .fo-down-left {
+      width: 100%;
+      padding-left: 0px;
+      text-align: center;
+    }
+    .footer-inner .fo-down .fo-down-left p {
+      color: #fff;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+    .footer-inner .fo-down .fo-down-right {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 15px;
+    }
+    .footer-inner .fo-down .fo-down-right a {
+      margin-right: 15px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  /* Footer Section End */
+
+}
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* header Section Start */
+    .header-section {
+      width: 100%;
+    }
+    .header-top {
+      width: 100%;
+      padding-top: 15px;
+    }
+    .header-top .contact {
+      width: 100%;
+      text-align: right;
+    }
+    .header-top .contact a {
+      font-size: 14px;
+      line-height: 24px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #3d2514;
+    }
+    .header-top .contact a img {
+      width: 30px;
+      margin-right: 5px;
+      color: black;
+    }
+    .main_menu .navbar-brand img {
+      width: 150px;
+    }
+    .banner {
+      padding: 100px 0px 125px;
+      background: url(../Images/baneer_pic.png) center top no-repeat;
+      background-size: cover;
+    }
+    .banner .banner_inner h6 {
+      width: fit-content;
+      color: #3d2514;
+      font-size: 10px;
+      line-height: 20px;
+      font-weight: 400;
+      border: 2px dashed #3d2514;
+      padding: 4px 6px 2px;
+      text-transform: uppercase;
+    }
+    .banner .banner_inner h1 {
+      color: #3d2514;
+      font-size: 42px;
+      line-height: 52px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: 4px 4px 0px #fee8bc;
+    }
+    .banner .banner_inner h3 {
+      color: #3d2514;
+      font-size: 26px;
+      line-height: 35px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: 3px 3px 0px #fee8bc;
+      margin-top: -10px;
+    }
+  /* header Section End */
+
+
+  /* Feature Section Start */
+    .feature {
+      margin: 50px 0px 0px;
+      padding: 0px;
+    }
+    .feature .feature_right {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .feature .feature_right .figure-img {
+      margin-bottom: 20px;
+      line-height: 1;
+    }
+  /* Feature Section End */
+
+
+  
+  /* Testy Section Start */
+    .testy {
+      padding: 55px 0px 0px;
+    }
+    .testy .testy_title h4 {
+      color: #3d2514;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: #ffc045;
+      width: fit-content;
+      margin: 0 auto;
+      padding: 6px 15px 4px;
+      margin-bottom: 15px;
+    }
+    .testy .testy_title h2 {
+      color: #3d2514;
+      font-size: 27px;
+      line-height: 37px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .testy .testy_title p {
+      color: #3d2514;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+    .testy .testy_title p br {
+      content: 'A' !important;
+    }
+    .testy .testy_item {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .testy .testy_item .card {
+      width: 100% !important;
+      text-align: center;
+      border: none;
+    }
+    .testy .testy_item .card-body {
+      padding: 15px 0px 0px;
+    }
+  /* Testy Section End */
+
+
+  /* Discover Section Start */
+    .discover .discover-slider .slider-text h4 {
+      color: #3d3d3d;
+      font-size: 22px;
+      line-height: 32px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+    }
+    .discover .discover-slider .slider-text h2 {
+      color: #3d2514;
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .discover .discover-slider .slider-text p {
+      color: #3d3d3d;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+    .discover .discover-slider {
+      width: 100%;
+      padding: 0px 25px 70px;
+      background: #fff;
+      box-shadow: 17px 17px 30px #dddddd;
+    }
+    .discover .discover-slider .carousel-indicators {
+      position: absolute;
+      right: unset;
+      bottom: 0;
+      right: 0px;
+      left: 0px;
+      bottom: -5px;
+    }
+  /* Discover Section End */
+
+
+  /* Reservation Section Start */
+    .reservation {
+      padding: 55px 0px 50px;
+      background: url(../Images/Reservation_img1.png) center top no-repeat;
+      background-size: cover;
+    }
+    .reservation .reservation-title h4 {
+      color: #3d2514;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+      letter-spacing: 2px;
+    }
+    .reservation .reservation-title h2 {
+      color: #3d2514;
+      font-size: 28px;
+      line-height: 38px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .reservation .reservation-title {
+      width: 100%;
+      padding: 0px 0px 30px;
+    }
+    .reservation .res_from .form-control {
+      margin-bottom: 20px;
+      display: block;
+      width: 100%;
+      height: calc(1.5em + .75rem + 2px);
+      padding: .375rem .75rem;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #3d3d3d;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #bebebe;
+      border-radius: .25rem;
+      transition: ease-in-out;
+      -webkit-transition: ease-in-out;
+      -moz-transition: ease-in-out;
+      -ms-transition: ease-in-out;
+      -o-transition: ease-in-out;
+    }
+    .reservation .res_from .form_submit {
+      background: #bf2222;
+      border: 1px solid #bf2222;
+      color: #fff;
+    }
+    .reservation .res_from .form_submit:hover, .reservation .res_from .form_submit:focus {
+      background: transparent;
+      color: #bf2222;
+    
+    }
+  /* Reservation Section End */
+
+
+  /* Footer Section Start */
+    .footer-section {
+      width: 100%;
+      padding-bottom: 60px;
+      background: #f6f6f6;
+    }
+    .footer-section .footer-inner .fo-left {
+      width: 100%;
+      padding-top: 55px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .footer-section .footer-inner .fo-left img {
+      width: 275px;
+    }
+    .footer-section .footer-inner .fo-left p {
+      color: #fff;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      margin-top: 30px;
+    }
+    .footer-section .footer-inner .fo-right {
+      width: 100%;
+      padding-left: 29px;
+      padding-top: 15px;
+    }
+    .footer-section .footer-inner .fo-right a {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 500;
+      color: #fff;
+      letter-spacing: 2px;
+    }
+    .footer-inner .fo-down {
+      width: 100%;
+      padding-top: 60px;
+    }
+    .footer-inner .fo-down .fo-down-left {
+      width: 100%;
+      padding-left: 15px;
+    }
+    .footer-inner .fo-down .fo-down-right {
+      width: 100%;
+      text-align: right;
+      margin-top: -44px;
+    }
+    .footer-inner .fo-down .fo-down-right a {
+      margin-right: 10px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  /* Footer Section End */
+
+
+}
+
+
+
+
+
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+   /* Header Section Start */
+   .navbar-nav {
+    text-align: center;
+   }
+    .banner {
+      width: 100%;
+      padding: 60px 0px 100px;
+    }
+    .banner .banner_inner h6 {
+      width: fit-content;
+      color: #3d2514;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      border: 2px dashed #3d2514;
+      padding: 7px 10px 4px;
+      text-transform: uppercase;
+    }
+    .banner .banner_inner h1 {
+      color: #3d2514;
+      font-size: 60px;
+      line-height: 70px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: 4px 4px 0px #fee8bc;
+    }
+    .banner .banner_inner h3 {
+      color: #3d2514;
+      font-size: 35px;
+      line-height: 45px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: 3px 3px 0px #fee8bc;
+      margin-top: -15px;
+    }
+  /* Header Section End */
+
+
+  /* Feature Section Start */
+    .banner {
+      width: 100%;
+      padding: 100px 0px 180px;
+    }
+  /* Feature Section End */
+
+  
+  /* Testy Section End */
+    .testy {
+      width: 100%;
+      padding-bottom: 90px;
+      }
+    .testy .testy_title p br {
+      content: 'A' !important;
+    }
+    .testy .testy_item .card {
+      text-align: center;
+      border: none;
+      width: 14rem !important;
+    }
+    .testy .testy_item .card-title {
+      color: #3d2514;
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 700;
+    }
+    .testy .testy_item .card-text {
+      color: #3d2514;
+      font-size: 13px;
+      line-height: 20px;
+      font-weight: 400;
+    }
+    .testy .testy_item .btn {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      font-family: 'Alfa Slab One', cursive;
+      text-transform: uppercase;
+      padding: 8px 20px 7px;
+      background: #bf2222;
+      border: 1px solid #bf2222
+    }
+    .discover .discover-slider .carousel-indicators {
+      position: absolute;
+      right: unset;
+      bottom: -70px;
+      left: 0px;
+      right: 0px;
+      z-index: 15;
+    }
+  /* Testy Section End */
+
+  
+  /* Discover Section Start */
+    .discover .discover-slider {
+      width: 100%;
+      padding: 25px 25px 60px;
+      background: #fff;
+      box-shadow: 17px 17px 30px #dddddd;
+    }
+    .discover .discover-slider .slider-text {
+      width: 100%;
+      margin-top: 0px;
+    }
+    .discover .discover-slider .slider-text h4 {
+      color: #3d3d3d;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: -6px;
+    }
+    .discover .discover-slider .slider-text h2 {
+      color: #3d2514;
+      font-size: 25px;
+      line-height: 35px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .discover .discover-slider .slider-text p {
+      color: #3d3d3d;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+    }
+  /* Discover Section End */
+
+
+  /* Reservation Section Start */
+    .reservation {
+      width: 100%;
+      background: url(../Images/Reservation_img.png) center top no-repeat;
+      background-size: cover;
+      padding-bottom: 47px;
+    }
+    .reservation .reservation-title {
+      width: 100%;
+      padding: 50px 0px 20px;
+    }
+    .reservation .reservation-title h4 {
+      color: #3d2514;
+      font-size: 25px;
+      line-height: 35px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+      letter-spacing: 2px;
+    }
+    .reservation .reservation-title h2 {
+      color: #3d2514;
+      font-size: 35px;
+      line-height: 45px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .reservation .res_from .form-control {
+      font-size : 14px;
+      margin-bottom: 15px;
+    }
+  /* Reservation Section End */
+
+
+  /* Footer Section Start */
+    .footer-section {
+      width: 100%;
+      padding-bottom: 60px;
+      background: #f6f6f6;
+    }
+    .footer-section .footer-inner .fo-left {
+      width: 100%;
+      padding-top: 50px;
+      padding-left: 30px;
+    }
+    .footer-section .footer-inner .fo-left img {
+      width: 225px;
+    }
+    .footer-section .footer-inner .fo-right {
+      width: 100%;
+      padding-left: 20px;
+      padding-top: 185px;
+    }
+    .footer-section .footer-inner .fo-right a {
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+    .footer-section .footer-inner .fo-right a {
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+    .footer-inner .fo-down {
+      width: 100%;
+      padding-top: 15px;
+    }
+    .footer-inner .fo-down .fo-down-left p {
+      color: #fff;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+    .footer-inner .fo-down .fo-down-right a {
+      margin-right: 15px;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  /* Footer Section End */
+
+}
+
+
+
+
+
+
+
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  /* Header Section Start */
+    .banner {
+      width: 100%;
+      padding: 100px 0px 180px;
+    }
+    .banner .banner_inner h6 {
+      width: fit-content;
+      color: #3d2514;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      border: 2px dashed #3d2514;
+      padding: 7px 10px 4px;
+      text-transform: uppercase;
+    }
+    .banner .banner_inner h1 {
+      color: #3d2514;
+      font-size: 80px;
+      line-height: 90px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: 4px 4px 0px #fee8bc;
+    }
+    .banner .banner_inner h3 {
+      color: #3d2514;
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: 3px 3px 0px #fee8bc;
+      margin-top: -15px;
+    }
+  /* Header Section End */
+
+
+  /* Feature Section Start */
+    .feature .feature_right .figure-img {
+      margin-bottom: 26px;
+      line-height: 1;
+    }
+  /* Feature Section End */
+
+
+  /* Testy Section Start */
+    .testy .testy_title h4 {
+      color: #3d2514;
+      font-size: 24px;
+      line-height: 33px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: #ffc045;
+      width: fit-content;
+      margin: 0 auto;
+      padding: 8px 20px 2px;
+      margin-bottom: 20px;
+    }
+    .testy .testy_title h2 {
+      color: #3d2514;
+      font-size: 45px;
+      line-height: 55px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .testy .testy_title p br {
+      content: 'A' !important;
+    }
+  /* Testy Section End */
+
+
+  /* Discover Section Start */
+    .discover .discover-slider .slider-text {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .discover .discover-slider .slider-text h4 {
+      color: #3d3d3d;
+      font-size: 25px;
+      line-height: 35px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: -6px;
+    }
+    .discover .discover-slider .slider-text h2 {
+      color: #3d2514;
+      font-size: 35px;
+      line-height: 45px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .discover .discover-slider .slider-text p {
+      color: #3d3d3d;
+      font-size: 16px;
+      line-height: 25px;
+      font-weight: 400;
+    }
+  /* Discover Section End */
+
+
+  /* Discover Section Start */
+    .discover .discover-slider .carousel-indicators {
+      position: absolute;
+      right: unset;
+      bottom: -30px;
+      left: 38px;
+      z-index: 15;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-left: 0px;
+      margin-right: 0px;
+      margin-left: 0px;
+      list-style: none;
+    }
+  /* Discover Section End */
+
+
+  /* Reservation Section Start */
+    .reservation {
+      width: 100%;
+      background: url(../Images/Reservation_img.png) center top no-repeat;
+      background-size: cover;
+      padding-bottom: 40px;
+    }
+    .reservation .reservation-title h2 {
+      color: #3d2514;
+      font-size: 45px;
+      line-height: 55px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+   /* Reservation Section End */
+
+
+   /* Footer Section Start */
+    .footer-section {
+      width: 100%;
+      padding-bottom: 60px;
+    }
+    .footer-section .footer-inner .fo-left img {
+      width: 275px;
+    }
+    .footer-section .footer-inner .fo-right {
+      width: 100%;
+      padding-left: 110px;
+      padding-top: 180px;
+    }
+   /* Footer Section End */
+
+
+
+
+
+
+
+}
+
+
